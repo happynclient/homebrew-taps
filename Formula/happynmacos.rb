@@ -3,7 +3,7 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Happynmacos < Formula
   desc "happyn client for macos "
-  homepage ""
+  homepage "https://happyn.cc"
   url "https://github.com/happynclient/happynmacos/releases/download/2.9.0-rc1/happynmacos-darwin-amd64-2.9.0-rc1.tar.gz"
   sha256 "00104f8a56e3355bfadb69ed5dcbb44d44136ed61e17936be22160380773ff5e"
   license "GPL-3.0"

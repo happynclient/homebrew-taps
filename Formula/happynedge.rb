@@ -28,11 +28,11 @@ class Happynedge < Formula
           <true/>
           <key>Label</key>
           <string>#{plist_name}</string>
-          <key>ProgramArguments</key>
           <key>StandardErrorPath</key>
-          <string>/usr/local/var/log/happynedge/happynedge.log</string>
+          <string>/usr/local/var/log/#{plist_name}.log</string>
           <key>StandardOutPath</key>
-          <string>/usr/local/var/log/happynedge/happynedge.log</string>
+          <string>/usr/local/var/log/#{plist_name}.log</string>
+          <key>ProgramArguments</key>
           <array>
             <string>#{opt_bin}/edge</string>
             <string>#{etc}/edge.conf</string>

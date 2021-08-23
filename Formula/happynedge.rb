@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Happynmacos < Formula
+class Happynedge < Formula
   desc "happyn client for macos "
   homepage "https://happyn.cc"
   url "https://github.com/happynclient/happynmacos/releases/download/2.9.0-rc1/happynmacos-darwin-amd64-2.9.0-rc1.tar.gz"
@@ -13,7 +13,7 @@ class Happynmacos < Formula
     puts "prefix = #{prefix}"
     bin.install 'bin/edge'
     etc.install "conf/edge.conf" => "edge.conf"
-    puts "Completed install happynmacOS"
+    puts "Completed install happynedge"
   end
 
   def plist

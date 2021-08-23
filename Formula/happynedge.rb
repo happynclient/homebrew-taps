@@ -5,7 +5,7 @@ class Happynedge < Formula
   desc "happyn client for macos "
   homepage "https://happyn.cc"
   url "https://github.com/happynclient/happynmacos/releases/download/2.9.0-rc1/happynmacos-darwin-amd64-2.9.0-rc1.tar.gz"
-  sha256 "b75889e073039a96c19b1b6a1af74bc437abf7d2c3d297c798f408349d8c47e9"
+  sha256 "a898c8b858a7191aaeb41c17885e1bd7d858c09d83da79f6727b4b7b7b594eaf"
   license "GPL-3.0"
 
   def install

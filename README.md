@@ -10,5 +10,5 @@ brew tap happynclient/taps
 ## install software
 
 ```
-brew install happynclient/taps/happynmacos
+brew install happynclient/taps/happynedge
 ```

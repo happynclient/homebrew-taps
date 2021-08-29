@@ -1,19 +1,19 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Happynedge < Formula
+class Happynet < Formula
   desc "happyn client for macos "
   homepage "https://happyn.cc"
-  url "https://github.com/happynclient/happynmacos/releases/download/2.9.0-rc1/happynmacos-darwin-amd64-2.9.0-rc1.tar.gz"
-  sha256 "a898c8b858a7191aaeb41c17885e1bd7d858c09d83da79f6727b4b7b7b594eaf"
+  url "https://github.com/happynclient/happynmacos/releases/download/0.1/happynet-macos-darwin-amd64-0.1.tar.gz"
+  sha256 "36a369561fa12284497bab327b1370a1bb4d92282f37725d19ecee10e540aeca"
   license "GPL-3.0"
 
   def install
-    # tar zxvf happnmacOS.tar.gz
+    # tar zxvf happynet-macos-darwin-amd64-0.1.tar.gz
     puts "prefix = #{prefix}"
     bin.install 'bin/edge'
     etc.install "conf/edge.conf" => "edge.conf"
-    puts "Completed install happynedge"
+    puts "Completed install happynet"
   end
 
   def plist

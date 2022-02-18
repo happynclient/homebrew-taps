@@ -1,6 +1,6 @@
-class tuntap < Formula
-  name "Happyn.cn TunTap"
-  desc "happyn tuntap for macos "
+class Happynet < Formula
+  name "TunTap"
+  desc "happyn.cn tuntap for macos "
   version "20150118"
   homepage "happyn.cn"
   url "https://github.com/happynclient/happynmacos/releases/download/0.2/happynet-tuntap.tar.gz"

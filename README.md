@@ -7,8 +7,14 @@ for macOS brew install happynmacos
 brew tap happynclient/taps
 ```
 
+## install tuntap driver
+
+```
+brew install tuntap --cask
+```
+
 ## install software
 
 ```
-brew install happynclient/taps/happynet
+brew install happynet
 ```

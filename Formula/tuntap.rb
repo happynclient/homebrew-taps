@@ -1,4 +1,4 @@
-class Happynet < Formula
+cask "tuntap" do
   name "TunTap"
   desc "happyn.cn tuntap for macos "
   version "20150118"

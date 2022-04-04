@@ -4,12 +4,12 @@
 class Happynet < Formula
   desc "happyn client for macos "
   homepage "https://happyn.cn"
-  url "https://download.happyn.vip/macos/happynet-macos-darwin-amd64-0.4.tar.gz"
-  sha256 "de7e5b4a25bd34ce04da19d5ed69477461cef278329a6827475de482d83e3544"
+  url "https://download.happyn.vip/macos/happynet-macos-darwin-amd64-0.5.tar.gz"
+  sha256 "efdb4746f7add63467336060f9d5ff1849be09252bf34dcbd754c0067ac76d18"
   license "GPL-3.0"
 
   def install
-    # tar zxvf happynet-macos-darwin-amd64-0.2.tar.gz
+    # tar zxvf happynet-macos-darwin-amd64-0.x.tar.gz
     puts "prefix = #{prefix}"
     bin.install 'bin/happynet'
     etc.install "conf/happynet.conf" => "happynet.conf"

@@ -4,8 +4,8 @@
 class Happynet < Formula
   desc "happyn client for macos "
   homepage "https://happyn.cn"
-  url "https://download.happyn.vip/macos/happynet-macos-darwin-amd64-1.0.tar.gz"
-  sha256 "b3a652a0c6814e5f40d608e7647dde8d8be192c4e03bccbe788827f90150b051"
+  url "https://download.happyn.vip/macos/happynet-macos-darwin-amd64-0.7.tar.gz"
+  sha256 "60074c1f6fba209919d6869e751c63cbfe1c4bea3052d55497745db6bbba80a1"
   license "GPL-3.0"
 
   def install
